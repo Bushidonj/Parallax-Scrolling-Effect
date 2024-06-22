@@ -101,15 +101,6 @@ nav .container{
     font-weight: 300;
 }
 
-.hamburger-menu{
-    width: 1.55rem;
-    height: 1.5rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
 .bar{
     position: relative;
     width: 1.2rem; 
