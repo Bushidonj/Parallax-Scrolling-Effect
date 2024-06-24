@@ -11,10 +11,12 @@ const border = document.querySelector(".border");
 let header_height = header.offsetHeight;
 let section_height = section.offsetHeight;
 
+console.log(image_container); // Verifique se o elemento está sendo selecionado
+
 window.addEventListener('scroll', () => {
     let scroll = window.pageYOffset;
     let sectionY = section.getBoundingClientRect();
-    
+
     translate.forEach(element => {
         let speed = element.dataset.speed;
         element.style.transform = `translateY(${scroll * speed}px)`;
