@@ -50,7 +50,7 @@ header:after {
   bottom: -220px;
   left: -70px;
   z-index: 20;
-  background: purple;
+  /* background: purple; */
 }
 
 .mountain2 {
