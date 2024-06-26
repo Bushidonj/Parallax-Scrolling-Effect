@@ -42,6 +42,7 @@ header:after {
   width: 1500px;
   right: 0;
   z-index: 19;
+  /* background: red; */
 }
 
 .person {
@@ -56,10 +57,11 @@ header:after {
 .mountain2 {
   position: absolute;
   width: 100%;
-  max-width: 1700px;
+  /* max-width: 1700px; */
   bottom: -350px;
   left: 0;
   z-index: 18;
+  /* background: yellow; */
 }
 
 .mountain3 {
@@ -69,6 +71,7 @@ header:after {
   bottom: -10px;
   right: 0;
   z-index: 17;
+  /* background: green; */
 }
 
 .sky {
@@ -76,6 +79,7 @@ header:after {
   width: 2100px;
   bottom: 250px;
   right: 0;
+  /* background: orange; */
 }
 
 nav {
