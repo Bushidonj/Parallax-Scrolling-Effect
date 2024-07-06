@@ -40,7 +40,7 @@ header:after {
   bottom: -100px;
   left: -70px;
   z-index: 20;
-  /* background: yellow; */
+  background: yellow;
 }
 .mountain1 {
   position: absolute;
